@@ -7,7 +7,7 @@ public class TestBloodData
 {
     public static void main(String[] args)
     {
-        BloodData bloodtest = new BloodData();
+        BloodData bloodtest = new BloodData("B","-");
         System.out.println("Blood Type: " + bloodtest.getBloodType());
         System.out.println("RH Factor: " + bloodtest.getRhFactor());
 

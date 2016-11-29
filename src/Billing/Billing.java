@@ -1,8 +1,10 @@
-/*public class Billing {
+package Billing;
+
+public class Billing {
     public static void main(String[] args) {
-        double coupon = 0;
-        double price = 12;
-        double quantity = 0;
+        double coupon = 3;
+        double price = 10;
+        double quantity = 2;
         computeBill(price, quantity, coupon);
         computeBill(price, quantity);
         computeBill(price);
@@ -39,4 +41,3 @@
         return totalDue;
     }
 }
-*/

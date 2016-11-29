@@ -9,29 +9,26 @@ public class BloodData {
         rhFactor = "+";
     }
 
+    public String getBloodType() {
+        return bloodType;
+    }
+
+    public void setBloodType(String bloodType) {
+        this.bloodType = bloodType;
+    }
+
+    public String getRhFactor() {
+        return rhFactor;
+    }
+
+    public void setRhFactor(String rhFactor) {
+        this.rhFactor = rhFactor;
+    }
+
     public BloodData(String type, String factor)
     {
         bloodType = type;
         rhFactor = factor;
     }
 
-    public void setBloodType(String type)
-    {
-        this.bloodType = type;
-    }
-
-    public void setRhFactor(String factor)
-    {
-        this.rhFactor = factor;
-    }
-
-    public String getBloodType()
-    {
-        return bloodType;
-    }
-
-    public String getRhFactor()
-    {
-        return rhFactor;
-    }
 }
